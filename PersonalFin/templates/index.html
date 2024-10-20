@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" width ="90" height ="80">
+                </div>
+                <nav class="main-nav">
+                    <a href="#">How it works</a>
+                    <a href="signup.html" class="signup-btn">Sign up now</a>
+                    <p> </p>
+                </nav>
+            </div>
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Easily create custom budgets to reach your goals</h1>
+                    <p>Take control of your financial future with our budgeting and investment tools. Track your spending, set goals, and manage your investments effectively.</p>
+                    <form class="cta-form">
+                        <input type="email" placeholder="Email address">
+                        <button type="submit" class="cta-button">Sign up now</button>
+                    </form>
+                </div>
+                <div class="hero-image">
+                    <img src="finance-app.png" alt="Finance App Screenshot">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Budgeting Section -->
+    <section id="budgeting" class="section">
+        <div class="container">
+            <h2>Budgeting</h2>
+            <p>Track your expenses, set goals, and maintain a budget that helps you achieve financial freedom.</p>
+            <a href="budgeting.html" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Investments Section -->
+    <section id="investments" class="section">
+        <div class="container">
+            <h2>Investments</h2>
+            <p>Plan and track your investments. See how your money can grow over time with the right strategies.</p>
+            <a href="investments.html" class="cta-button">Start Investing</a>
+        </div>
+    </section>
+
+    <!-- Managing Finances Section -->
+    <section id="managing_finances" class="section">
+        <div class="container">
+            <h2>Managing Finances</h2>
+            <p>Organize your budget and make smart financial choices to reach your goals.</p>
+            <a href="managingfinances.html" class="cta-button">Start Managing</a>
+        </div>
+    </section>
+
+     <!-- Savings Section -->
+     <section id="savings" class="section">
+        <div class="container">
+            <h2>Savings</h2>
+            <p>Regularly save to grow your wealth and secure your financial future.</p>
+            <a href="savings.html" class="cta-button">Start saving</a>
+        </div>
+    </section>
+
+     <!-- Resources Section -->
+     <section id="resources" class="section">
+        <div class="container">
+            <h2>Resources</h2>
+            <p>Use tools and insights to make better financial decisions.</p>
+            <a href="resources.html" class="cta-button">Get Assistance</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Personal Finance Tracker. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
